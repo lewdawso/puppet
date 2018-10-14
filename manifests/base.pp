@@ -6,7 +6,7 @@ node 'lewis-debian' {
         username => $username,
     }
 
-    class { 'vim_go':
+    class { 'vim':
         username => $username,
     }
 

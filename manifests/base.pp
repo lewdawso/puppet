@@ -10,5 +10,9 @@ node 'lewis-debian' {
         username => $username,
     }
 
+    class { 'code':
+        username => $username,
+    }
+
     include packages
 }
